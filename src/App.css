@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #23252c;
+}
+
+body {
+  width: 350px;
+  margin: 3em auto;
+  height: 100%;
+  background-color: #1a1b21;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 2em;
+}
+
+h4 {
+  margin-top: 0.4em;
+  font-size: 0.9rem;
+  color: #f3bf99;
+  font-weight: 400;
+}
+
+p {
+  font-size: 0.8rem;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  text-decoration: none;
+}
+
+button {
+  width: 130px;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0;
+  border-radius: 6px;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.email-btn:hover {
+  transition: background-color 0.5s ease;
+  background-color: #aaacaf;
+}
+
+.email-btn:active {
+  transition: background-color 0.5s ease;
+  background-color: #8d9094;
+}
+
+.linkedin-btn:hover {
+  transition: background-color 0.5s ease;
+  background-color: #1d4e86;
+}
+
+.linkedin-btn:active {
+  transition: background-color 0.5s ease;
+  background-color: #133863;
+}
+
+.linkedin-btn {
+  background-color: #3b6ca5;
+  color: #ffffff;
+}
+
+.header-pic {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main-section {
+  text-align: center;
+  width: 100%;
+}
+
+.about-and-interests-section {
+  width: 90%;
+  margin: 0 auto 2.5em;
+}
+
+.button-section {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5em;
+}
+
+footer nav {
+  padding: 1.5em 2em;
+  display: flex;
+  justify-content: center;
+  gap: 1.9em;
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+footer nav a i {
+  color: #918e9b;
+  cursor: pointer;
+}
+
+.fa-square-twitter:hover {
+  transition: color 0.05s ease;
+  color: #00acee;
+}
+
+.fa-square-facebook:hover {
+  transition: color 0.05s ease;
+  color: #4267b2;
+}
+
+.fa-square-github:hover {
+  transition: color 0.05s ease;
+  color: #c4bfbf;
+}
+
+.fa-square-instagram:hover {
+  background: linear-gradient(#962fbf, #d62976, #fa7e1e, #feda75);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: color 0.5 ease;
+}
